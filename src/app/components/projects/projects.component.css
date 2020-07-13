@@ -1,0 +1,9 @@
+.uk-badge{
+    margin:5px;
+    padding: 8px;
+    color: white;
+    background-color: black;
+}
+.hidden{
+    display: none;
+}

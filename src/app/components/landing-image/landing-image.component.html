@@ -1,0 +1,50 @@
+<div class="uk-section-default tm-section-texture backgroud-image" uk-parallax="bgy: -100">
+    <app-navbar></app-navbar>
+
+
+<p>
+    <a href="#" uk-scroll class="uk-icon-button uk-margin-small-right uk-position-bottom-right uk-position-fixed uk-box-shadow-small uk-position-z-index uk-border-circle uk-background-default" uk-icon="icon: chevron-up; ratio:2;" style="margin-bottom:20px;margin-right:20px;"></a>
+</p>
+
+    <div class="uk-sticky-placeholder" style="height: 80px; margin: 0px;" hidden=""></div>
+    <div uk-height-viewport="offset-top: true; offset-bottom: true"
+        class="uk-section uk-section-small uk-flex uk-flex-middle uk-text-center"
+        style="min-height: calc((100vh - 80px) - 102.625px);">
+        <div class="uk-width-1-1">
+            <div class="uk-container">
+                <p class="uk-margin-medium uk-text-lead">
+                    Hi, I am <b class="name"></b>,
+                    <br>
+                    <span class="element">{{headlines[0]}}</span>
+                </p>
+ 
+                <div uk-grid="" class="uk-child-width-auto uk-grid-medium uk-flex-inline uk-flex-center uk-grid">
+                    <div class="uk-first-column">
+                        <a href="mailto:{{GetInTouchMail}}" class="uk-button uk-button-default tm-button-secondary uk-border-rounded uk-button-large tm-button-large uk-visible@s uk-border-rounded border-black" target="_blank"> 
+                            Get In Touch
+                        </a>
+                        <a href="mailto:{{GetInTouchMail}}" class="uk-button uk-button-default tm-button-default uk-hidden@s uk-border-rounded border-black" target="_blank">
+                            Get In Touch
+                        </a>
+                    </div>
+                    <div>
+                        <a href="{{ResumeFileName}}" class="uk-button uk-button-default tm-button-default uk-button-large tm-button-large uk-visible@s uk-border-rounded border-black" target="_blank">
+                            Resume
+                        </a>
+                        <a href="{{ResumeFileName}}" class="uk-button uk-button-default tm-button-default uk-hidden@s uk-border-rounded border-black" target="_blank">
+                            Resume
+                        </a>
+                    </div>
+                </div>
+
+                <br>
+                <p class="uk-text-center uk-width-auto@m uk-visible@l" uk-margin>
+                    <a *ngFor="let social_media of connect" href="{{social_media.url}}" class="uk-icon-button uk-margin-small-right" [attr.uk-tooltip]="social_media.website_name" target="_blank">
+                        <span class="iconify" [attr.data-icon]="social_media.icon_class" data-inline="false"></span>
+                    </a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>

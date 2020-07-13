@@ -1,0 +1,484 @@
+{
+    "Title": "Chaitanya Gawande",
+    "Logo": "Chaitanya",
+    "GetInTouchEmail": "cgawande12@gmail.com",
+    "ResumeFileName": "https://drive.google.com/file/d/1Le1Eu5RweUw8qhfiwR5p1BrvwAmlhTJn/view?usp=sharing",
+    "Menu": [
+        {
+            "Name": "About",
+            "present": true
+        },
+        {
+            "Name": "Educations",
+            "present": true
+        },
+        {
+            "Name": "Experiences",
+            "present": true
+        },
+        {
+            "Name": "Projects",
+            "present": true
+        },
+        {
+            "Name": "Skills",
+            "present": true
+        },
+        {
+            "Name": "Certifications",
+            "present": true
+        }
+    ],
+    "Connect": [
+        {
+            "website_name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/chaitanya-gawande/",
+            "icon_class": "ant-design:linkedin-filled",
+            "available": true
+        },
+        {
+            "website_name": "Github",
+            "url": "https://github.com/Chaitanya1998/",
+            "icon_class": "ant-design:github-filled",
+            "available": true
+        },
+        {
+            "website_name": "Codechef",
+            "url": "https://www.codechef.com/users/dextrous98",
+            "icon_class": "simple-icons:codechef",
+            "available": true
+        },
+        {
+            "website_name": "Leetcode",
+            "url": "https://leetcode.com/dextrous12/",
+            "icon_class": "simple-icons:leetcode",
+            "available": true
+        },
+        {
+            "website_name": "Hackerearth",
+            "url": "https://www.hackerearth.com/users/chaitanya12",
+            "icon_class": "simple-icons:hackerearth",
+            "available": true
+        },
+        {
+            "website_name": "Hackerrank",
+            "url": "https://www.hackerrank.com/cgawande12",
+            "icon_class": "simple-icons:hackerrank",
+            "available": true
+        },
+        {
+            "website_name": "Codeforces",
+            "url": "https://codeforces.com/profile/chaitanya12",
+            "icon_class": "simple-icons:codeforces",
+            "available": true
+        }
+    ],
+    "Summary": [
+        "Angular Developer.",
+        "Recent Graduate.",
+        "Django Developer.",
+        "Java Developer.",
+        "Tech Enthusiast"
+    ],
+    "Profile_Picture": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+    "About_Me": "I \u2764\uFE0F building software right from mobile apps to web apps. I have participated in various competitive coding competitions as well as web development competitions. I have earned \uD83E\uDD47 in website development competition in the Pulzion'18 event organized by PICT ACM Student Chapter.<br/></br>\r\n\r\nI hold a good understanding of Data Structures, Algorithms, DBMS and Operating Systems, and possess good problem solving, analytical and communication skills.<br/></br>\r\n\r\nPreviously worked on Angular 4 Dashboard and developed Flask Rest APIs @Froot Research - An AI Research Startup. Gained hands-on experience in various cutting-edge technologies by focusing on academics projects.<br/></br>\r\n\r\nHowever, my everlasting \u2764\uFE0F is hunting Linux distros, competing in hackathons and coding competitions. Apart from this, I \u2764\uFE0F reading books as well as writing a poem in free time.<br/></br>\r\n\r\nI'm graduating in June 2020 and I'm interested in a full-time software developer roles. Please feel free to get in touch with me via email at cgawande12@gmail.com.<br/><br/>\r\n\r\nCompetencies: \u200B C, C++, Java, Angular 4, Django, Data Structures and Algorithms, DBMS, Operating System ",
+    "Education": [
+        {
+            "Degree": "Bachelor of Engineering in Computer Science",
+            "College_Name": "Pune Institute Of Computer Technology",
+            "Start_Year": "Aug 2016",
+            "End_Year": "Present",
+            "Score_Type": "CGPA",
+            "Score": "8.67"
+        },
+        {
+            "Degree": "Higher Secondary School Education",
+            "College_Name": "Z. P. Agarkar Junior College, Akola",
+            "Start_Year": "June 2014",
+            "End_Year": "July 2016",
+            "Score_Type": "Percentage",
+            "Score": "90%"
+        },
+        {
+            "Degree": "Secondary School Education",
+            "College_Name": "P. Pu. Hedgewar School, Akola",
+            "Start_Year": "May 2013",
+            "End_Year": "June 2014",
+            "Score_Type": "Percentage",
+            "Score": "97.20%"
+        }
+    ],
+    "Experiences": [
+        {
+            "Company": "Froot Research, Pune",
+            "Designation": "Software Engineer Intern",
+            "Start_Date": "June 2018",
+            "End_Date": "Dec 2018",
+            "Job_Details": [
+                "Created Dashboard using Angular 4 and Flask to showcase the work of the company to investors for raising funds.",
+                "Built a new web architecture consisting of different Angular components which can be further reused in website creation.",
+                "Salient features include JWT Token authentication, Todo management, Bookmarks management, and Terminal that smoothes user experience.",
+                "Designed a responsive website that lists all of the company's products for NASSCOM 2018 participation."
+            ]
+        }
+    ],
+    "Projects": [
+        {
+            "project_name": "Roomier",
+            "project_desc": "Room Management System",
+            "project_code": "https://github.com/Chaitanya1998/Roomier",
+            "project_demo": "http://chaitanya98.pythonanywhere.com/",
+            "project_img": "https://getuikit.com/docs/images/light.jpg",
+            "tags": [
+                {
+                    "tag": "HTML"
+                },
+                {
+                    "tag": "CSS"
+                },
+                {
+                    "tag": "Javascript"
+                },
+                {
+                    "tag": "Bootstrap 4"
+                },
+                {
+                    "tag": "Python 3"
+                },
+                {
+                    "tag": "Django"
+                },
+                {
+                    "tag": "REST API"
+                }
+            ]
+        },
+        {
+            "project_name": "COEP Dorm",
+            "project_desc": "Hostel Management System",
+            "project_code": "https://github.com/Chaitanya1998/COEP-DORM",
+            "project_demo": "http://coepdorm.pythonanywhere.com/",
+            "project_img": "https://getuikit.com/docs/images/light.jpg",
+            "tags": [
+                {
+                    "tag": "HTML"
+                },
+                {
+                    "tag": "CSS"
+                },
+                {
+                    "tag": "Javascript"
+                },
+                {
+                    "tag": "Jquery"
+                },
+                {
+                    "tag": "Python 3"
+                },
+                {
+                    "tag": "Django"
+                },
+                {
+                    "tag": "Payment Gateway"
+                }
+            ]
+        },
+        {
+            "project_name": "E-Commerce",
+            "project_desc": "E-Commerce Website",
+            "project_code": "https://github.com/Chaitanya1998/Ecommerce",
+            "project_demo": "https://sharp-bell-4e8051.netlify.app/",
+            "project_img": "https://getuikit.com/docs/images/light.jpg",
+            "tags": [
+                {
+                    "tag": "HTML 5"
+                },
+                {
+                    "tag": "CSS 5"
+                },
+                {
+                    "tag": "Javascript"
+                },
+                {
+                    "tag": "Bootstrap 4"
+                },
+                {
+                    "tag": "Angular 4"
+                },
+                {
+                    "tag": "Java"
+                },
+                {
+                    "tag": "Maven"
+                },
+                {
+                    "tag": "Spring Boot"
+                },
+                {
+                    "tag": "REST API"
+                }
+            ]
+        },
+        {
+            "project_name": "Dashboard",
+            "project_desc": "Angular Dashboard",
+            "project_code": "https://github.com/Chaitanya1998/Angular-Dashboard",
+            "project_demo": "https://focused-stallman-04aa08.netlify.app",
+            "project_img": "https://getuikit.com/docs/images/light.jpg",
+            "tags": [
+                {
+                    "tag": "HTML"
+                },
+                {
+                    "tag": "CSS"
+                },
+                {
+                    "tag": "Angular 4"
+                },
+                {
+                    "tag": "D3.js"
+                },
+                {
+                    "tag": "REST API"
+                }
+            ]
+        },
+        {
+            "project_name": "Raagvastra",
+            "project_desc": "Clothing E-commerce",
+            "project_code": "https://github.com/Chaitanya1998/Raagvastra",
+            "project_demo": "http://www.raagvastra.com.s3-website.ap-south-1.amazonaws.com/",
+            "project_img": "https://getuikit.com/docs/images/light.jpg",
+            "tags": [
+                {
+                    "tag": "HTML"
+                },
+                {
+                    "tag": "CSS"
+                },
+                {
+                    "tag": "Javascript"
+                },
+                {
+                    "tag": "Jquery"
+                },
+                {
+                    "tag": "Bootstrap 4"
+                },
+                {
+                    "tag": "Freelance Work"
+                }
+            ]
+        },
+        {
+            "project_name": "Credit Card Fraud Detection",
+            "project_desc": "Machine Learning Engineer",
+            "project_code": "https://github.com/Chaitanya1998/Credit-Card-Fraud-Detection",
+            "project_demo": "https://github.com/Chaitanya1998/Credit-Card-Fraud-Detection",
+            "project_img": "https://getuikit.com/docs/images/light.jpg",
+            "tags": [
+                {
+                    "tag": "K- nearest neighbors"
+                },
+                {
+                    "tag": "Decision Tree"
+                },
+                {
+                    "tag": "Random Forest"
+                },
+                {
+                    "tag": "SMOTE"
+                },
+                {
+                    "tag": "Pandas"
+                },
+                {
+                    "tag":"scikit learn"
+                }
+            ]
+        },
+        {
+            "project_name": "E-Buddy",
+            "project_desc": "Android App",
+            "project_code": "https://github.com/Chaitanya1998/E-buddy",
+            "project_demo": "https://github.com/Chaitanya1998/E-buddy",
+            "project_img": "https://getuikit.com/docs/images/light.jpg",
+            "tags": [
+                {
+                    "tag": "Java"
+                },
+                {
+                    "tag": "Android"
+                },
+                {
+                    "tag": "Firebase"
+                },
+                {
+                    "tag": "Notes"
+                },
+                {
+                    "tag": "Event Reminder"
+                },
+                {
+                    "tag":"Attendance"
+                }
+            ]
+        },
+        {
+            "project_name": "Medical Dashboard",
+            "project_desc": "Angular API",
+            "project_code": "https://nascom-iumkpfamam.now.sh",
+            "project_demo": "https://nascom-iumkpfamam.now.sh",
+            "project_img": "https://getuikit.com/docs/images/light.jpg",
+            "tags": [
+                {
+                    "tag": "HTML"
+                },
+                {
+                    "tag": "CSS"
+                },
+                {
+                    "tag": "Javascript"
+                },
+                {
+                    "tag": "Angular 4"
+                },
+                {
+                    "tag":"REST API"
+                }
+            ]
+        }
+    ],
+    "Skills": [
+        {
+            "name": "Programming Languages",
+            "skill_set": [
+                {
+                    "name": "C (Intermediate)"
+                },
+                {
+                    "name": "C++ (Proficient)"
+                },
+                {
+                    "name": "Java (Intermediate)"
+                },
+                {
+                    "name": "Python 3 (Intermediate)"
+                }
+            ]
+        },
+        {
+            "name": "Front-End Technologies",
+            "skill_set": [
+                {
+                    "name": "HTML 5"
+                },
+                {
+                    "name": "CSS/Sass"
+                },
+                {
+                    "name": "Bootstrap 4"
+                },
+                {
+                    "name": "Javascript (ES5)"
+                },
+                {
+                    "name": "Typescript"
+                },
+                {
+                    "name": "Angular 4"
+                },
+                {
+                    "name": "Gulp"
+                },
+                {
+                    "name": "D3"
+                }
+            ]
+        },
+        {
+            "name": "Back-End Technologies",
+            "skill_set": [
+                {
+                    "name": "Django"
+                },
+                {
+                    "name": "Flask"
+                },
+                {
+                    "name": "Servlet & JSP"
+                },
+                {
+                    "name": "Spring Boot (Beginner)"
+                },
+                {
+                    "name": "MySQL"
+                },
+                {
+                    "name": "MongoDB"
+                }
+            ]
+        },
+        {
+            "name": "Tools",
+            "skill_set": [
+                {
+                    "name": "Linux"
+                },
+                {
+                    "name": "Git & Github"
+                },
+                {
+                    "name": "Eclipse"
+                },
+                {
+                    "name": "VSCode"
+                },
+                {
+                    "name": "Atom"
+                },
+                {
+                    "name": "Sublime Text"
+                },
+                {
+                    "name": "Microsoft Azure"
+                },
+                {
+                    "name": "Google Cloud"
+                },
+                {
+                    "name": "Postman"
+                },
+                {
+                    "name": "Chrome DevTools"
+                }
+            ]
+        }
+    ],
+    "Certificates": [
+        {
+            "course_name": "Spring Boot For Beginners",
+            "organization": "Udemy",
+            "issue_date": "June 2020",
+            "image_url": "assets/images/spring_boot.jpg"
+        },
+        {
+            "course_name": "Microservices : The Big Picture",
+            "organization": "Pluralsight",
+            "issue_date": "Apr 2020",
+            "image_url": "assets/images/microservices.png"
+        },
+        {
+            "course_name": "Learn Angular 4 From Scratch",
+            "organization": "Udemy",
+            "issue_date": "Mar 2018",
+            "image_url": "assets/images/angular4.jpg"
+        },
+        {
+            "course_name": "Complete Web Developer 2.0",
+            "organization": "Udemy",
+            "issue_date": "Mar 2018",
+            "image_url": "assets/images/web_developer.jpg"
+        }
+    ]
+}

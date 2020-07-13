@@ -1,0 +1,15 @@
+<div class="uk-section uk-section-muted">
+    <div class="uk-container">
+
+        <h2 class="uk-heading-bullet uk-heading-secondary" id="about">About</h2>
+        <br>
+        <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+            <div>
+                <img [attr.data-src]="profile_pic" width="1800" height="1200" alt="" uk-img>
+             </div>
+            <div [innerHTML]="about_me_html">
+            </div>
+        </div>
+
+    </div>
+</div>

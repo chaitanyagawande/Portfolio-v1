@@ -1,0 +1,22 @@
+<div class="uk-section uk-section-muted">
+    <div class="uk-container">
+
+        <h2 class="uk-heading-bullet uk-heading-secondary"  id="experiences">Experience</h2>
+        <br>
+
+        <div class="uk-margin uk-margin-auto-right uk-margin-auto@m uk-width-1-2@s uk-card uk-card-default uk-card-body" *ngFor="let experience of experiences">
+            <span class="uk-text-bolder">
+                {{experience.Company}}
+            </span> <br>
+            <span class="uk-text-small">
+                {{experience.Designation}}
+            </span> <br>
+            <span class="uk-text-small">
+                {{experience.Start_Date}} - {{experience.End_Date}}
+            </span>
+            <ul class="uk-list uk-list-hyphen uk-text-small">
+                <div [innerHTML]="BuildHTML(experience.Job_Details)"></div>
+            </ul>
+        </div>
+    </div>
+</div>

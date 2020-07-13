@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap');
+ 
+.text-black{
+    color:black;
+}
+.nav-link {
+  position: relative;
+  opacity: 0.75;
+}
+
+a:hover{
+  color:black;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background-color: black;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;  
+}
+
+@media (max-width: 955px) {
+  .mobile-nav
+  {
+      background-color: #F8F8F8;
+      position: -webkit-sticky;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100000;
+      box-shadow: 2px 1px rgb(219, 218, 218);
+  }
+}

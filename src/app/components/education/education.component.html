@@ -1,0 +1,18 @@
+<div class="uk-section uk-section-muted">
+    <div class="uk-container">
+
+        <h2 class="uk-heading-bullet uk-heading-secondary"  id="educations">Education</h2>
+        <br>
+
+        <div class="uk-margin uk-margin-auto-right uk-margin-auto@m uk-width-1-2@s uk-card uk-card-default uk-card-body">
+            <ul class="uk-list uk-list-divider">
+                <li class="uk-text-small" *ngFor="let education of educations">
+                    <span  class="uk-text-bolder">{{education.Degree}}</span> <br>
+                    <span  class="uk-text-small">{{education.College_Name}}</span> <br>
+                    <span class="uk-text-small uk-text-bolder">{{education.Score_Type}} : {{education.Score}}</span> <br>
+                    <span class="uk-text-small">{{education.Start_Year}} - {{education.End_Year}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

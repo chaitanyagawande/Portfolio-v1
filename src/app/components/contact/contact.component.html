@@ -1,0 +1,16 @@
+<div class="uk-child-width-1-1 uk-text-center">
+    <div>
+        <div class="uk-card uk-card-default uk-card-body uk-card-secondary">
+            
+            <p class="uk-text-center" uk-margin>
+                <a *ngFor="let social_media of connect" href="{{social_media.url}}" class="uk-icon-button uk-margin-small-right" [attr.uk-tooltip]="social_media.website_name" target="_blank">
+                    <span class="iconify" [attr.data-icon]="social_media.icon_class" data-inline="false"></span>
+                </a>
+            </p>
+            Designed and Developed by {{footer_name}}
+            <br>
+            &#169; 2020
+            <span uk-icon="icon: heart"></span>
+        </div>
+    </div>
+</div>

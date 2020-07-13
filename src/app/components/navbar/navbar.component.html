@@ -1,0 +1,53 @@
+<div uk-sticky="media: 960" class="uk-navbar-container tm-navbar-container uk-navbar-transparent uk-sticky uk-border" (scroll)="onWindowScroll($event);" (onscroll)="onWindowScroll($event);">
+    <div class="uk-container uk-container-expand mobile-nav">
+        <nav class="uk-navbar " uk-navbar style="position: relative; z-index: 980;" uk-sticky="top: 0;">
+            <div class="uk-navbar-left">
+                <a href="#" class="uk-navbar-item uk-logo router-link-exact-active uk-active" style="color: black;">
+                    <span style="font-family: 'Grenze Gotisch', cursive;">
+                        {{profile.Logo}}
+                    </span>
+                </a>
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@m">
+                    <li *ngFor="let link of menu">
+                        <a pageScroll href="{{Lowercase(link.Name)}}" class="nav-link nav-link-ltr">{{link.Name}}</a>
+                    </li>
+                </ul>
+                <a uk-navbar-toggle-icon="" href="#offcanvas" uk-toggle=""
+                     class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon" style="color: black;position: fixed;top:5px;right: 10px;">
+                </a> 
+            </div>
+        </nav>
+        <div id="offcanvas" uk-offcanvas="mode: push; overlay: true" class="uk-offcanvas">
+            <div class="uk-offcanvas-bar" style="background-color:white;color:black;">
+                
+                <h3 class="uk-text-medium text-black" style="font-family: 'Grenze Gotisch', cursive;">
+                    {{profile.Logo}}
+                </h3>
+                <hr style="border-bottom: 1px solid rgb(105, 102, 102);">
+
+                <div class="uk-panel">
+                    <ul class="uk-list uk-list-divider">
+                        <li *ngFor="let link of menu">
+                            <a pageScroll href="{{Lowercase(link.Name)}}" class="text-black">{{link.Name}}</a>
+                        </li>
+                    </ul>
+                    <hr style="border-bottom: 1px solid rgb(105, 102, 102);">
+                    
+                    <ul class="uk-list uk-list-divider">
+                        <li *ngFor="let social_media of connect">
+                            <a href="{{social_media.url}}" class="text-black" [attr.uk-tooltip]="social_media.website_name" target="_blank">
+                                <span class="iconify" [attr.data-icon]="social_media.icon_class" data-inline="false"></span>&nbsp;
+                                {{social_media.website_name}}
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <hr style="border-bottom: 1px solid rgb(105, 102, 102);">
+
+            </div>
+        </div>
+    </div>
+</div>
