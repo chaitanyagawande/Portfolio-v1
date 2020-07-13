@@ -11,8 +11,8 @@
                 <div class="uk-card uk-card-default uk-grid-match">
                     
                     <div class="uk-card-media-top uk-inline" uk-lightbox>
-                        <a href="{{project.project_img}}" data-alt="Image" [attr.data-caption]="project.project_name">
-                            <img src="{{project.project_img}}" alt="" height="100%" width="100%">
+                        <a href="{{project.project_img}}" data-alt="Image" [attr.data-caption]="project.project_name" title="{{project.project_name}}">
+                            <img src="{{project.project_img}}" height="100%" width="100%" [attr.data-alt]="project.project_name">
                             <div class="uk-overlay-primary">
                                 <div class="uk-position-top-right uk-margin-small-right uk-margin-small-top">
                                     <span uk-icon="icon:expand;" style="color:black;"></span>
@@ -33,10 +33,10 @@
                             </span>
                         </p>
                         <p uk-margin class="uk-text-center ">
-                            <a class="uk-button uk-button-default uk-button-small" *ngIf="project.project_demo.length!=0" href="{{project.project_demo}}" target="_blank">
+                            <a class="uk-button uk-button-default uk-button-small" *ngIf="project.project_demo.length!=0" href="{{project.project_demo}}" target="_blank" title="Demo">
                                 <span uk-icon="link"></span>
                             </a>
-                            <a class="uk-button uk-button-default uk-button-small" *ngIf="project.project_code.length!=0" href="{{project.project_code}}" style="margin-left:10px" target="_blank">
+                            <a class="uk-button uk-button-default uk-button-small" *ngIf="project.project_code.length!=0" href="{{project.project_code}}" style="margin-left:10px" target="_blank" title="Code">
                                 <span uk-icon="github"></span>
                             </a>
                         </p>
@@ -54,7 +54,7 @@
                 <div class="uk-card uk-card-default uk-grid-match">
                     
                     <div class="uk-card-media-top uk-inline" uk-lightbox>
-                        <a href="{{project.project_img}}" data-alt="Image" [attr.data-caption]="project.project_name">
+                        <a href="{{project.project_img}}" data-alt="Image" [attr.data-caption]="project.project_name" title="{{project.project_name}}">
                             <img src="{{project.project_img}}" alt="" height="100%" width="100%">
                             <div class="uk-overlay-primary">
                                 <div class="uk-position-top-right uk-margin-small-right uk-margin-small-top">
@@ -76,10 +76,10 @@
                             </span>
                         </p>
                         <p uk-margin class="uk-text-center ">
-                            <a class="uk-button uk-button-default uk-button-small" href="{{project.project_demo}}" target="_blank">
+                            <a class="uk-button uk-button-default uk-button-small" href="{{project.project_demo}}" target="_blank" title="Demo">
                                 <span uk-icon="link"></span>
                             </a>
-                            <a class="uk-button uk-button-default uk-button-small" href="{{project.project_code}}" style="margin-left:10px" target="_blank">
+                            <a class="uk-button uk-button-default uk-button-small" href="{{project.project_code}}" style="margin-left:10px" target="_blank" title="Code">
                                 <span uk-icon="github"></span>
                             </a>
                         </p>

@@ -20,18 +20,18 @@
  
                 <div uk-grid="" class="uk-child-width-auto uk-grid-medium uk-flex-inline uk-flex-center uk-grid">
                     <div class="uk-first-column">
-                        <a href="mailto:{{GetInTouchMail}}" class="uk-button uk-button-default tm-button-secondary uk-border-rounded uk-button-large tm-button-large uk-visible@s uk-border-rounded border-black" target="_blank"> 
+                        <a href="mailto:{{GetInTouchMail}}" class="uk-button uk-button-default tm-button-secondary uk-border-rounded uk-button-large tm-button-large uk-visible@s uk-border-rounded border-black" target="_blank" title="GET IN TOUCH"> 
                             Get In Touch
                         </a>
-                        <a href="mailto:{{GetInTouchMail}}" class="uk-button uk-button-default tm-button-default uk-hidden@s uk-border-rounded border-black" target="_blank">
+                        <a href="mailto:{{GetInTouchMail}}" class="uk-button uk-button-default tm-button-default uk-hidden@s uk-border-rounded border-black" target="_blank" title="GET IN TOUCH">
                             Get In Touch
                         </a>
                     </div>
                     <div>
-                        <a href="{{ResumeFileName}}" class="uk-button uk-button-default tm-button-default uk-button-large tm-button-large uk-visible@s uk-border-rounded border-black" target="_blank">
+                        <a href="{{ResumeFileName}}" class="uk-button uk-button-default tm-button-default uk-button-large tm-button-large uk-visible@s uk-border-rounded border-black" target="_blank" title="RESUME">
                             Resume
                         </a>
-                        <a href="{{ResumeFileName}}" class="uk-button uk-button-default tm-button-default uk-hidden@s uk-border-rounded border-black" target="_blank">
+                        <a href="{{ResumeFileName}}" class="uk-button uk-button-default tm-button-default uk-hidden@s uk-border-rounded border-black" target="_blank" title="RESUME">
                             Resume
                         </a>
                     </div>
@@ -39,7 +39,7 @@
 
                 <br>
                 <p class="uk-text-center uk-width-auto@m uk-visible@l" uk-margin>
-                    <a *ngFor="let social_media of connect" href="{{social_media.url}}" class="uk-icon-button uk-margin-small-right" [attr.uk-tooltip]="social_media.website_name" target="_blank">
+                    <a *ngFor="let social_media of connect" href="{{social_media.url}}" class="uk-icon-button uk-margin-small-right" [attr.uk-tooltip]="social_media.website_name" target="_blank" title="{{social_media.website_name}}">
                         <span class="iconify" [attr.data-icon]="social_media.icon_class" data-inline="false"></span>
                     </a>
                 </p>
