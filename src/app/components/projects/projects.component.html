@@ -9,7 +9,7 @@
         <div class="uk-child-width-1-3@m"  uk-grid [hidden]="toggle" *ngIf="projects.length>3">
             <div *ngFor="let project of important_projects;let i = index;">
                 <div class="uk-card uk-card-default uk-grid-match">
-                    
+
                     <div class="uk-card-media-top uk-inline" uk-lightbox>
                         <a href="{{project.project_img}}" data-alt="Image" [attr.data-caption]="project.project_name" title="{{project.project_name}}">
                             <img src="{{project.project_img}}" height="100%" width="100%" [attr.data-alt]="project.project_name">
@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
         <button class="uk-button uk-button-secondary uk-align-center" type="button" (click)="Toggle()" [hidden]="toggle">
             SHOW MORE
@@ -52,7 +52,7 @@
         <div class="uk-child-width-1-3@m"  uk-grid [hidden]="!toggle" *ngIf="projects.length>3">
             <div *ngFor="let project of projects;let i = index;">
                 <div class="uk-card uk-card-default uk-grid-match">
-                    
+
                     <div class="uk-card-media-top uk-inline" uk-lightbox>
                         <a href="{{project.project_img}}" data-alt="Image" [attr.data-caption]="project.project_name" title="{{project.project_name}}">
                             <img src="{{project.project_img}}" alt="" height="100%" width="100%">
@@ -86,7 +86,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
         <button class="uk-button uk-button-secondary uk-align-center" type="button" (click)="Toggle()" [hidden]="!toggle">
             SHOW LESS
