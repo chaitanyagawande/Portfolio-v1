@@ -125,7 +125,7 @@
     "Projects": [
         {
             "project_name": "Roomier",
-            "project_desc": "Room Management System",
+            "project_desc": "Roomier enables customers to book room for a specific time slot on given day. <br/> It helps the manager to provide rooms on rent effectively and gain more profit.",
             "project_code": "https://github.com/Chaitanya1998/Roomier",
             "project_demo": "http://chaitanya98.pythonanywhere.com/",
             "project_img": "assets/images/Roomier.jpg",
@@ -154,8 +154,8 @@
             ]
         },
         {
-            "project_name": "COEP Dorm",
-            "project_desc": "Hostel Management System",
+            "project_name": "COEP DORM",
+            "project_desc": "COEP DORM is the online hostel management system designed to provide college students accommodation to the university hostel more efficiently with less efforts.",
             "project_code": "https://github.com/Chaitanya1998/COEP-DORM",
             "project_demo": "http://coepdorm.pythonanywhere.com/",
             "project_img": "assets/images/COEP_DORM.jpg",
@@ -184,8 +184,8 @@
             ]
         },
         {
-            "project_name": "E-Commerce",
-            "project_desc": "E-Commerce Website",
+            "project_name": "Shopping Cart",
+            "project_desc": "Shopping Cart is a project which lists all the products and also performing CRUD operations on Cart.",
             "project_code": "https://github.com/Chaitanya1998/Ecommerce",
             "project_demo": "https://sharp-bell-4e8051.netlify.app/",
             "project_img": "assets/images/Ecommerce.jpg",
@@ -221,7 +221,7 @@
         },
         {
             "project_name": "Raagvastra",
-            "project_desc": "Clothing E-commerce",
+            "project_desc": "Raagvastra is ",
             "project_code": "https://github.com/Chaitanya1998/Raagvastra",
             "project_demo": "http://www.raagvastra.com.s3-website.ap-south-1.amazonaws.com/",
             "project_img": "assets/images/Raagvastra.jpg",

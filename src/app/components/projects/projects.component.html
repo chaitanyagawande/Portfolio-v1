@@ -24,8 +24,8 @@
                     <div class="uk-card-body">
                         <span  class="uk-text-bolder">{{project.project_name}}</span> <br>
 
-                        <p class="uk-text-smaller">
-                            {{project.project_desc}}
+                        <p class="uk-text-smaller" [innerHTML]="project.project_desc">
+
                         </p>
                         <p>
                             <span class="uk-badge" *ngFor="let badge of project.tags">

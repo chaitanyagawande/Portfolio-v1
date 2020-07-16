@@ -42,8 +42,8 @@ export class LandingImageComponent implements OnInit {
         typeSpeed: 100,
         backSpeed: -50,
       }
-      var typed = new Typed(".element", options);
-      var typed = new Typed(".name", nameOption);
+      // var typed = new Typed(".element", options);
+      // var typed = new Typed(".name", nameOption);
     });
   }
 
