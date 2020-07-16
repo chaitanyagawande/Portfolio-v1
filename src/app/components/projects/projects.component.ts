@@ -27,13 +27,13 @@ export class ProjectsComponent implements OnInit {
         }
       }
     });
-    
+
   }
 
   Toggle(){
     this.toggle = !this.toggle;
     if(!this.toggle){
-      window.location.href = "http://localhost:4200/#projects";
+      window.location.href = "#projects";
     }
   }
 

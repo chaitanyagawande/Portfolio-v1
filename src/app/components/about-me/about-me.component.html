@@ -3,12 +3,21 @@
 
         <h2 class="uk-heading-bullet uk-heading-secondary" id="about">About</h2>
         <br>
-        <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
-            <div>
-                <img [attr.data-src]="profile_pic" width="1800" height="1200" alt="Profile Picture" uk-img>
-             </div>
-            <div [innerHTML]="about_me_html">
+
+        <!-- <div uk-grid class="uk-grid-match">
+            <div class="uk-width-1-3@m">
+                <img src="{{profile_pic}}" alt="Profile Picture" width="false" class="uk-border-circle">
             </div>
+            <div class="uk-width-expand@m uk-text-middle">
+                <div [innerHTML]="about_me_html">
+                </div>
+            </div>
+        </div> -->
+
+        <div class="uk-panel">
+          <img class="uk-align-left uk-margin-remove-adjacent uk-border-circle" src="{{profile_pic}}" alt="Profile Picture" width="300" height="300">
+          <div [innerHTML]="about_me_html">
+          </div>
         </div>
 
     </div>
