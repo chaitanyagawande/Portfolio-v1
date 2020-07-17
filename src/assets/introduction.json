@@ -115,10 +115,10 @@
             "Start_Date": "June 2018",
             "End_Date": "Dec 2018",
             "Job_Details": [
-                "Created Dashboard using Angular 4 and Flask to showcase the work of the company to investors for raising funds.",
-                "Built a new web architecture consisting of different Angular components which can be further reused in website creation.",
-                "Salient features include JWT Token authentication, Todo management, Bookmarks management, and Terminal that smoothes user experience.",
-                "Designed a responsive website that lists all of the company's products for NASSCOM 2018 participation."
+                "Collaborated with small team of designer and two Machine Learning engineers to build projects @Froot Research, an ambitious AI startup from Pune,IN." ,
+                "Interfaced with user experience designers and other developers to ensure meaningful and consistent user experiences across web apps.",
+                "Worked with a variety of different languages, platforms and frameworks such as Angular 4, TypeScript, Javascript, Flask API, Google Cloud Engine.",
+                "Developed and shipped highly interactive web applications for Company Products using Angular 4 and Flask REST APIs."
             ]
         }
     ],
