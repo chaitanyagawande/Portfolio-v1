@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap');
- 
+
 .text-black{
     color:black;
 }
@@ -31,7 +31,7 @@ a:hover{
 }
 
 .nav-link-ltr:hover::before {
-  width: 100%;  
+  width: 100%;
 }
 
 @media (max-width: 955px) {
@@ -42,7 +42,7 @@ a:hover{
       position: fixed;
       top: 0;
       width: 100%;
-      z-index: 100000;
+      z-index: 1000;
       box-shadow: 2px 1px rgb(219, 218, 218);
   }
 }

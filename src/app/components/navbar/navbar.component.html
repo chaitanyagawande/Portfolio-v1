@@ -16,12 +16,12 @@
                 </ul>
                 <a uk-navbar-toggle-icon="" href="#offcanvas" uk-toggle=""
                      class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon" style="color: black;position: fixed;top:5px;right: 10px;" title="Menu">
-                </a> 
+                </a>
             </div>
         </nav>
         <div id="offcanvas" uk-offcanvas="mode: push; overlay: true" class="uk-offcanvas">
             <div class="uk-offcanvas-bar" style="background-color:white;color:black;">
-                
+
                 <h3 class="uk-text-medium text-black" style="font-family: 'Grenze Gotisch', cursive;">
                     {{profile.Logo}}
                 </h3>
@@ -34,7 +34,7 @@
                         </li>
                     </ul>
                     <hr style="border-bottom: 1px solid rgb(105, 102, 102);">
-                    
+
                     <ul class="uk-list uk-list-divider">
                         <li *ngFor="let social_media of connect">
                             <a href="{{social_media.url}}" class="text-black" [attr.uk-tooltip]="social_media.website_name" target="_blank">
