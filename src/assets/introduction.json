@@ -38,7 +38,7 @@
         },
         {
             "website_name": "Github",
-            "url": "https://github.com/Chaitanya1998/",
+            "url": "https://github.com/chaitanyagawande/",
             "icon_class": "ant-design:github-filled",
             "available": true
         },
@@ -126,7 +126,7 @@
         {
             "project_name": "Roomier",
             "project_desc": "Roomier enables customers to book room for a specific time slot on given day. <br/> It helps the manager to provide rooms on rent effectively and gain more profit.",
-            "project_code": "https://github.com/Chaitanya1998/Roomier",
+            "project_code": "https://github.com/chaitanyagawande/Roomier",
             "project_demo": "http://chaitanya98.pythonanywhere.com/",
             "project_img": "assets/images/Roomier.jpg",
             "tags": [
@@ -156,7 +156,7 @@
         {
             "project_name": "COEP DORM",
             "project_desc": "COEP DORM is the online hostel management system designed to provide college students accommodation to the university hostel more efficiently with less efforts.",
-            "project_code": "https://github.com/Chaitanya1998/COEP-DORM",
+            "project_code": "https://github.com/chaitanyagawande/COEP-DORM",
             "project_demo": "http://coepdorm.pythonanywhere.com/",
             "project_img": "assets/images/COEP_DORM.jpg",
             "tags": [
@@ -186,7 +186,7 @@
         {
             "project_name": "Ecommerce",
             "project_desc": "Ecommerce enables customer to buy products from anywhere through online. Products can be added or remove from shopping cart. In upcoming days, will be implementing additional features to make website robust.",
-            "project_code": "https://github.com/Chaitanya1998/Ecommerce",
+            "project_code": "https://github.com/chaitanyagawande/Ecommerce",
             "project_demo": "https://sharp-bell-4e8051.netlify.app/",
             "project_img": "assets/images/Ecommerce.jpg",
             "tags": [
@@ -222,7 +222,7 @@
         {
             "project_name": "Raagvastra",
             "project_desc": "Raagvastra is an endeavour to encourage Indian handlooms and fabrics and make it easily accessible to the people at large. Designed attractive and responsive landing page to attract more users to the website.",
-            "project_code": "https://github.com/Chaitanya1998/Raagvastra",
+            "project_code": "https://github.com/chaitanyagawande/Raagvastra",
             "project_demo": "http://www.raagvastra.com.s3-website.ap-south-1.amazonaws.com/",
             "project_img": "assets/images/Raagvastra.jpg",
             "tags": [
@@ -249,8 +249,8 @@
         {
             "project_name": "Credit Card Fraud Detection",
             "project_desc": "The credit card fraud detection project aims to detect fradulent transactions based on user's past spending behavior and geographic locations. ",
-            "project_code": "https://github.com/Chaitanya1998/Credit-Card-Fraud-Detection",
-            "project_demo": "https://github.com/Chaitanya1998/Credit-Card-Fraud-Detection",
+            "project_code": "https://github.com/chaitanyagawande/Credit-Card-Fraud-Detection",
+            "project_demo": "https://github.com/chaitanyagawande/Credit-Card-Fraud-Detection",
             "project_img": "assets/images/credit_card.png",
             "tags": [
                 {
@@ -301,8 +301,8 @@
         {
             "project_name": "E-Buddy",
             "project_desc": "E-Buddy is an Android App that eases the task of checking attendance, taking notes and getting updates about various events.",
-            "project_code": "https://github.com/Chaitanya1998/E-buddy",
-            "project_demo": "https://github.com/Chaitanya1998/E-buddy",
+            "project_code": "https://github.com/chaitanyagawande/E-buddy",
+            "project_demo": "https://github.com/chaitanyagawande/E-buddy",
             "project_img": "assets/images/Ebuddy.png",
             "tags": [
                 {
