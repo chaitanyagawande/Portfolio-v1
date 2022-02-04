@@ -81,15 +81,15 @@
         "Tech Enthusiast"
     ],
     "Profile_Picture": "assets/images/profile_pic.jpg",
-    "About_Me": "Hello, I'm Chaitanya, a Full-Stack Developer based in Pune, IN.<br/><br/>\r\n\r\nI enjoy building things that live on the internet, whether that be websites, applications, or anything in between. I have gained hands-on experience working with various programming languages and frameworks. Also, I'm always looking for an opportunity to work on something new.<br/><br/>\r\n\r\nPreviously worked on Angular 4 and Flask @Froot Research - An AI Research Startup, where I worked on a wide variety of captivating and meaningful real-life projects. <br/><br/>\r\n\r\nHowever, my eternal \u2764\uFE0F is travelling, participating in hackathons, and coding competitions. Apart from this, I adore reading books and writing a poem when I'm not in front of a computer.",
+    "About_Me": "Hello, I'm Chaitanya, a Backend Developer based in Pune, IN.<br/><br/>\r\n\r\nI enjoy building things that live on the internet, whether that be websites, applications, or anything in between. I have gained hands-on experience working with various programming languages and frameworks. I'm currently working at PubMatic. <br/><br/>\r\n\r\nHowever, my eternal \u2764\uFE0F is travelling, participating in hackathons, and coding competitions. Apart from this, I adore reading books and writing a poem when I'm not in front of a computer.",
     "Education": [
         {
             "Degree": "Bachelor of Engineering in Computer Science",
             "College_Name": "Pune Institute Of Computer Technology",
             "Start_Year": "Aug 2016",
-            "End_Year": "Present",
+            "End_Year": "May 2020",
             "Score_Type": "CGPA",
-            "Score": "8.67"
+            "Score": "8.83"
         },
         {
             "Degree": "Higher Secondary School Education",
@@ -109,6 +109,21 @@
         }
     ],
     "Experiences": [
+        {
+            "Company": "PubMatic, Pune",
+            "Designation": "Software Engineer",
+            "Start_Date": "Aug 2020",
+            "End_Date": "Current",
+            "Job_Details" : [
+                "Experienced with backend development using Java, Spring Boot, and MySQL.", 
+                "Contributed to high revenue impact projects such as Ads.txt Crawler, Domain Whitelisting, Domain Blocklisting, Viewability Calculation. Ads.txt Crawler daily crawls ads.txt files for around 1 Million domains.",
+                "Designed two features from scratch, one of which helps the publisher increase their revenue by 10% and another feature helps to remove the inactive domain data from our platform.",
+                "Did Proof-of-concept on using Slack Bot for uploading large files on slack channels for reporting purposes.",
+                "Hands-on experience in developing microservices using spring boot and deploying on the cloud.",
+                "Developed Inventory Quality Dashboard in PubMatic Hackathon 2021 which provides evaluation metrics that helps publishers to understand the state of the whitelisted domain.",
+                "Mentored three new hires on our team products and Ad Tech industry knowledge."
+            ]
+        },
         {
             "Company": "Froot Research, Pune",
             "Designation": "Software Engineer Intern",
@@ -337,7 +352,7 @@
                     "name": "C++ (Proficient)"
                 },
                 {
-                    "name": "Java (Intermediate)"
+                    "name": "Java (Proficient)"
                 },
                 {
                     "name": "Python 3 (Intermediate)"
@@ -351,25 +366,16 @@
                     "name": "HTML 5"
                 },
                 {
-                    "name": "CSS/Sass"
+                    "name": "CSS"
                 },
                 {
-                    "name": "Bootstrap 4"
-                },
-                {
-                    "name": "Javascript (ES5)"
-                },
-                {
-                    "name": "Typescript"
+                    "name": "Javascript"
                 },
                 {
                     "name": "Angular 4"
                 },
                 {
-                    "name": "Gulp"
-                },
-                {
-                    "name": "D3"
+                    "name": "Bootstrap 4"
                 }
             ]
         },
@@ -377,22 +383,16 @@
             "name": "Back-End Technologies",
             "skill_set": [
                 {
-                    "name": "Django"
-                },
-                {
-                    "name": "Flask"
+                    "name": "Java"
                 },
                 {
                     "name": "Servlet & JSP"
                 },
                 {
-                    "name": "Spring Boot (Beginner)"
+                    "name": "Spring Boot"
                 },
                 {
                     "name": "MySQL"
-                },
-                {
-                    "name": "MongoDB"
                 }
             ]
         },
@@ -400,34 +400,19 @@
             "name": "Tools",
             "skill_set": [
                 {
-                    "name": "Linux"
-                },
-                {
                     "name": "Git & Github"
                 },
                 {
                     "name": "Eclipse"
                 },
                 {
-                    "name": "VSCode"
+                    "name": "Docker"
                 },
                 {
-                    "name": "Atom"
-                },
-                {
-                    "name": "Sublime Text"
-                },
-                {
-                    "name": "Microsoft Azure"
-                },
-                {
-                    "name": "Google Cloud"
+                    "name": "Kubernetes"
                 },
                 {
                     "name": "Postman"
-                },
-                {
-                    "name": "Chrome DevTools"
                 }
             ]
         }
