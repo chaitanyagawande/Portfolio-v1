@@ -9,8 +9,8 @@
                 <li class="uk-text-small" *ngFor="let education of educations">
                     <span  class="uk-text-bolder">{{education.Degree}}</span> <br>
                     <span  class="uk-text-small">{{education.College_Name}}</span> <br>
-                    <span class="uk-text-small uk-text-bolder">{{education.Score_Type}} : {{education.Score}}</span> <br>
-                    <span class="uk-text-small">{{education.Start_Year}} - {{education.End_Year}}</span>
+                    <span class="uk-text-small">{{education.Start_Year}} - {{education.End_Year}}</span> <br>
+                    <span class="uk-text-small uk-text-bolder" *ngIf="education.Score_Type != null">{{education.Score_Type}} : {{education.Score}}</span> <br>
                 </li>
             </ul>
         </div>

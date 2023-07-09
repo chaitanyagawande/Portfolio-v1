@@ -4,12 +4,12 @@
         <h2 class="uk-heading-bullet uk-heading-secondary"  id="experience">Experience</h2>
         <br>
 
-        <div class="uk-margin uk-margin-auto-right uk-margin-auto@m uk-width-1-2@s uk-card uk-card-default uk-card-body" *ngFor="let experience of experiences">
+        <div class="uk-margin uk-margin-auto-right uk-margin-auto@m uk-width-2-3@s uk-card uk-card-default uk-card-body" *ngFor="let experience of experiences">
             <span class="uk-text-bolder">
-                {{experience.Company}}
+                {{experience.Designation}}
             </span> <br>
             <span class="uk-text-small">
-                {{experience.Designation}}
+                {{experience.Company}}
             </span> <br>
             <span class="uk-text-small">
                 {{experience.Start_Date}} - {{experience.End_Date}}

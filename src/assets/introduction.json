@@ -81,31 +81,21 @@
         "Tech Enthusiast"
     ],
     "Profile_Picture": "assets/images/profile_pic.jpg",
-    "About_Me": "Hello, I'm Chaitanya, a Backend Developer based in Pune, IN.<br/><br/>\r\n\r\nI enjoy building things that live on the internet, whether that be websites, applications, or anything in between. I have gained hands-on experience working with various programming languages and frameworks. I'm currently working at PubMatic. <br/><br/>\r\n\r\nHowever, my eternal \u2764\uFE0F is travelling, participating in hackathons, and coding competitions. Apart from this, I adore reading books and writing a poem when I'm not in front of a computer.",
+    "About_Me": "Hello, I'm Chaitanya, a Software Engineer based in San Francisco, CA.<br/><br/>\r\n\r\nI have a passion for developing internet-based creations, from websites to applications and all that lies in between. I possess three years of industry experience in the Adtech domain, specifically gained through my employment at PubMatic. With a proven record in building enterprise-class, robust, and scalable software applications, I possess expertise in backend software design (HLD, LLD) and development. I am also adept at creating large-scale cloud microservices applications using Java and Spring Boot. My project, Ads.Txt Crawler 2.0, stands as a testament to my skills, being capable of crawling 2 million domains' ads.txt files daily and scalable up to 3X of the current traffic. I rely on the Agile methodology for my software development lifecycle. <br/><br/>\r\n\r\nAt present, I am expanding my knowledge and honing my skills as a student of Master of Science in Software Engineering at San Jose State University. Prior to this, I earned a Bachelor's degree in Computer Engineering from Pune Institute of Computer Technology. My undergraduate years were filled with rich experiences, marked by work on several full-stack projects and a research paper published in the LOD conference. <br/><br/>\r\n\r\nHowever, my \u2764\uFE0F forever belongs to traveling, engaging in hackathons, and taking part in coding competitions.  Beyond this, I'm an avid reader and a poet at heart, finding peace away from the computer screen.",
     "Education": [
+        {
+            "Degree": "Computer Software Engineering",
+            "College_Name": "San Jose State University",
+            "Start_Year": "Aug 2023",
+            "End_Year": "Current"
+        },
         {
             "Degree": "Bachelor of Engineering in Computer Science",
             "College_Name": "Pune Institute Of Computer Technology",
             "Start_Year": "Aug 2016",
             "End_Year": "May 2020",
             "Score_Type": "CGPA",
-            "Score": "8.83"
-        },
-        {
-            "Degree": "Higher Secondary School Education",
-            "College_Name": "Z. P. Agarkar Junior College, Akola",
-            "Start_Year": "June 2014",
-            "End_Year": "July 2016",
-            "Score_Type": "Percentage",
-            "Score": "90%"
-        },
-        {
-            "Degree": "Secondary School Education",
-            "College_Name": "P. Pu. Hedgewar School, Akola",
-            "Start_Year": "May 2013",
-            "End_Year": "June 2014",
-            "Score_Type": "Percentage",
-            "Score": "97.20%"
+            "Score": "8.83/10"
         }
     ],
     "Experiences": [
@@ -113,15 +103,29 @@
             "Company": "PubMatic, Pune",
             "Designation": "Software Engineer",
             "Start_Date": "Aug 2020",
-            "End_Date": "Current",
+            "End_Date": "July 2023",
             "Job_Details" : [
-                "Experienced with backend development using Java, Spring Boot, and MySQL.", 
-                "Contributed to high revenue impact projects such as Ads.txt Crawler, Domain Whitelisting, Domain Blocklisting, Viewability Calculation. Ads.txt Crawler daily crawls ads.txt files for around 1 Million domains.",
-                "Designed two features from scratch, one of which helps the publisher increase their revenue by 10% and another feature helps to remove the inactive domain data from our platform.",
-                "Did Proof-of-concept on using Slack Bot for uploading large files on slack channels for reporting purposes.",
-                "Hands-on experience in developing microservices using spring boot and deploying on the cloud.",
-                "Developed Inventory Quality Dashboard in PubMatic Hackathon 2021 which provides evaluation metrics that helps publishers to understand the state of the whitelisted domain.",
-                "Mentored three new hires on our team products and Ad Tech industry knowledge."
+                "Leveraged technical expertise to design and develop REST APIs, providing robust solutions to complex technical problems for a user base of over 50K active users.", 
+                "Collaborating with product managers and cross-functional teams to comprehend business requirements, leading feature design, and producing comprehensive documentation.",
+                "Identifying, debugging, and resolving production issues, ensuring system stability through proactive monitoring and fine-tuning.",
+                "Conducting thorough code reviews, providing constructive feedback to enhance code quality and maintain best practices.",
+                "Took ownership of identifying and addressing security vulnerabilities, resulting in vulnerability-free code. Recognized with the Biased Towards Action award for my contributions at PubMatic.",
+                "Conducted a proof-of-concept on File Uploading to Slack Channel via Code + Load Data command in MySQL, resulting in optimized DB-intensive workflows and improving the Viewability Calculation flow by 60%.",
+                "Improved monitoring and alerting processes, resulting in a 25% increase in detecting P1 and P2 issues and improved platform stability.",
+                "Secured 4th place in the PubMatic hackathon - 2021 for developing the Inventory Quality Dashboard, a tool that calculates a transparency score to verify the authenticity of the parties engaged in programmatic advertising transactions.",
+                "Mentored 6 new hires, providing guidance and support during their onboarding process, and conducted interviews for 20+ candidates, contributing to the hiring of top talent for the company."
+            ]
+        },
+        {
+            "Company": "L3Cube, Pune",
+            "Designation": "Research Project Intern",
+            "Start_Date": "Jul 2019",
+            "End_Date": "May 2020",
+            "Job_Details": [
+                "Conducted experiments with SST-2 and TREC-6 datasets to study how text classification models (CNN, LSTM, and BERT) rely on important keywords. Found that these models tend to prioritize keywords over understanding the meaning of sentences, which can limit their classification accuracy.",
+                "Developed an innovative approach called ShufText to uncover the limitations of these models and their excessive reliance on important keywords.",
+                "Applied mathematical, statistical, and machine learning expertise to design and execute experiments, focusing on utilizing BERT.",
+                "Published a research paper titled <b><a href=\"https://link.springer.com/chapter/10.1007/978-3-030-95467-3_18\" style=\"cursor:pointer;color: black !important;text-decoration: none !important;\" target=\"_blank\">ShufText: A Simple Black Box Approach to Evaluate the Fragility of Text Classification Models</a></b> at the LOD'21 International Conference."
             ]
         },
         {
@@ -130,10 +134,9 @@
             "Start_Date": "June 2018",
             "End_Date": "Dec 2018",
             "Job_Details": [
-                "Collaborated with small team of designer and two Machine Learning engineers to build projects @Froot Research, an ambitious AI startup from Pune,IN." ,
-                "Interfaced with user experience designers and other developers to ensure meaningful and consistent user experiences across web apps.",
-                "Worked with a variety of different languages, platforms and frameworks such as Angular 4, TypeScript, Javascript, Flask API, Google Cloud Engine.",
-                "Developed and shipped highly interactive web applications for Company Products using Angular 4 and Flask REST APIs."
+                "Implemented a SaaS-based subscription management software to facilitate the company's product offerings through subscription models.",
+                "Collaborated with UX designers and Machine Learning engineers to develop captivating data visualization dashboards that empower users to easily comprehend critical information and make informed decisions.",
+                "Worked with a variety of different languages, platforms and frameworks such as Angular 4, TypeScript, Javascript, Flask API, Google Cloud Engine."
             ]
         }
     ],
@@ -346,16 +349,16 @@
             "name": "Programming Languages",
             "skill_set": [
                 {
-                    "name": "C (Intermediate)"
+                    "name": "C"
                 },
                 {
-                    "name": "C++ (Proficient)"
+                    "name": "C++"
                 },
                 {
-                    "name": "Java (Proficient)"
+                    "name": "Java"
                 },
                 {
-                    "name": "Python 3 (Intermediate)"
+                    "name": "Python 3"
                 }
             ]
         },
@@ -393,6 +396,18 @@
                 },
                 {
                     "name": "MySQL"
+                },
+                {
+                    "name": "Apache Kafka"
+                },
+                {
+                    "name": "Django"
+                },
+                {
+                    "name": "Flask"
+                },
+                {
+                    "name": "REST APIs"
                 }
             ]
         },
@@ -400,10 +415,10 @@
             "name": "Tools",
             "skill_set": [
                 {
-                    "name": "Git & Github"
+                    "name": "Microservices"
                 },
                 {
-                    "name": "Eclipse"
+                    "name": "GIT"
                 },
                 {
                     "name": "Docker"
@@ -412,7 +427,19 @@
                     "name": "Kubernetes"
                 },
                 {
-                    "name": "Postman"
+                    "name": "Design Patterns"
+                },
+                {
+                    "name": "High-Level Design"
+                },
+                {
+                    "name": "Low-Level Design"
+                },
+                {
+                    "name": "Distributed Systems"
+                },
+                {
+                    "name": "AWS"
                 }
             ]
         }
@@ -441,6 +468,12 @@
             "organization": "Udemy",
             "issue_date": "Mar 2018",
             "image_url": "assets/images/web_developer.jpg"
+        },
+        {
+            "course_name": "Introduction to AWS",
+            "organization": "Udemy",
+            "issue_date": "Apr 2023",
+            "image_url": "assets/images/AWS.jpeg"
         }
     ]
 }
