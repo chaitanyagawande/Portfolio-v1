@@ -17,6 +17,10 @@
             "present": true
         },
         {
+            "Name": "Blog",
+            "present": true
+        },
+        {
             "Name": "Project",
             "present": true
         },
@@ -87,7 +91,8 @@
             "Degree": "Computer Software Engineering",
             "College_Name": "San Jose State University",
             "Start_Year": "Aug 2023",
-            "End_Year": "Current"
+            "End_Year": "Current",
+            "Coursework": "Enterprise Distributed Systems, Enterprise Software Platforms, Data Mining"
         },
         {
             "Degree": "Bachelor of Engineering in Computer Science",
@@ -95,7 +100,8 @@
             "Start_Year": "Aug 2016",
             "End_Year": "May 2020",
             "Score_Type": "CGPA",
-            "Score": "8.83/10"
+            "Score": "8.83/10",
+            "Coursework": "Data Structures and Algorithms, Operating Systems, Database Management Systems, Computer Networks, Object Oriented programming, Data Analysis and Algorithms, Web Technology, Distributed Systems, Machine Learning"
         }
     ],
     "Experiences": [
@@ -114,6 +120,10 @@
                 "Improved monitoring and alerting processes, resulting in a 25% increase in detecting P1 and P2 issues and improved platform stability.",
                 "Secured 4th place in the PubMatic hackathon - 2021 for developing the Inventory Quality Dashboard, a tool that calculates a transparency score to verify the authenticity of the parties engaged in programmatic advertising transactions.",
                 "Mentored 6 new hires, providing guidance and support during their onboarding process, and conducted interviews for 20+ candidates, contributing to the hiring of top talent for the company."
+            ],
+            "tags": [
+                "Java", "Spring Boot", "MySQL", "Apache Kafka", "Microservices", 
+                "Docker", "Kubernetes", "Kibana", "Graphana", "CI/CD", "Jenkins"
             ]
         },
         {
@@ -125,7 +135,10 @@
                 "Conducted experiments with SST-2 and TREC-6 datasets to study how text classification models (CNN, LSTM, and BERT) rely on important keywords. Found that these models tend to prioritize keywords over understanding the meaning of sentences, which can limit their classification accuracy.",
                 "Developed an innovative approach called ShufText to uncover the limitations of these models and their excessive reliance on important keywords.",
                 "Applied mathematical, statistical, and machine learning expertise to design and execute experiments, focusing on utilizing BERT.",
-                "Published a research paper titled <b><a href=\"https://link.springer.com/chapter/10.1007/978-3-030-95467-3_18\" style=\"cursor:pointer;color: black !important;text-decoration: none !important;\" target=\"_blank\">ShufText: A Simple Black Box Approach to Evaluate the Fragility of Text Classification Models</a></b> at the LOD'21 International Conference."
+                "Published a research paper titled <b><a href=\"https://link.springer.com/chapter/10.1007/978-3-030-95467-3_18\" style=\"cursor:pointer;color: black;text-decoration: none;\" target=\"_blank\">ShufText: A Simple Black Box Approach to Evaluate the Fragility of Text Classification Models</a></b> at the LOD'21 International Conference."
+            ],
+            "tags": [
+                "Python 3", "Keras", "BERT", "CNN", "LSTM", "Jupyter notebook"
             ]
         },
         {
@@ -137,10 +150,43 @@
                 "Implemented a SaaS-based subscription management software to facilitate the company's product offerings through subscription models.",
                 "Collaborated with UX designers and Machine Learning engineers to develop captivating data visualization dashboards that empower users to easily comprehend critical information and make informed decisions.",
                 "Worked with a variety of different languages, platforms and frameworks such as Angular 4, TypeScript, Javascript, Flask API, Google Cloud Engine."
+            ],
+            "tags": [
+                "Angular 4", "Flask", "HTML", "CSS", "JavaScript", "Python 3", "GCP", "Plot.ly"
             ]
         }
     ],
     "Projects": [
+        {
+            "project_name": "Ads.Txt Crawler 2.0",
+            "project_desc": "The Ads.Txt Crawler 2.0 effectively scans ads.txt files across 7 million domains. The project involved the creation, management, and maintenance of two microservices with Kafka producers and consumers. The project also entailed testing various text compression algorithms, eventually choosing one that compressed message payload size by 95%.",
+            "project_code": "",
+            "project_demo": "https://pubmatic.com/blog/introducing-crawler-2-0-the-next-generation-ads-txt-crawler-at-pubmatic/",
+            "project_img": "assets/images/crawler_2.jpg",
+            "tags": [
+                {
+                    "tag": "HTML"
+                },
+                {
+                    "tag": "CSS"
+                },
+                {
+                    "tag": "Javascript"
+                },
+                {
+                    "tag": "Bootstrap 4"
+                },
+                {
+                    "tag": "Python 3"
+                },
+                {
+                    "tag": "Django"
+                },
+                {
+                    "tag": "REST API"
+                }
+            ]
+        },
         {
             "project_name": "Roomier",
             "project_desc": "Roomier enables customers to book room for a specific time slot on given day. <br/> It helps the manager to provide rooms on rent effectively and gain more profit.",
@@ -265,6 +311,30 @@
             ]
         },
         {
+            "project_name": "Medical Dashboard",
+            "project_desc": "Desinged and Developed Interative Dashboard that enables health professionals to access patient's statistics to increase the hospital performance.",
+            "project_code": "https://nascom-iumkpfamam.now.sh",
+            "project_demo": "https://nascom-iumkpfamam.now.sh",
+            "project_img": "assets/images/medical.jpg",
+            "tags": [
+                {
+                    "tag": "HTML"
+                },
+                {
+                    "tag": "CSS"
+                },
+                {
+                    "tag": "Javascript"
+                },
+                {
+                    "tag": "Angular 4"
+                },
+                {
+                    "tag":"REST API"
+                }
+            ]
+        },
+        {
             "project_name": "Credit Card Fraud Detection",
             "project_desc": "The credit card fraud detection project aims to detect fradulent transactions based on user's past spending behavior and geographic locations. ",
             "project_code": "https://github.com/chaitanyagawande/Credit-Card-Fraud-Detection",
@@ -288,31 +358,6 @@
                 },
                 {
                     "tag":"scikit learn"
-                }
-            ]
-        },
-
-        {
-            "project_name": "Medical Dashboard",
-            "project_desc": "Desinged and Developed Interative Dashboard that enables health professionals to access patient's statistics to increase the hospital performance.",
-            "project_code": "https://nascom-iumkpfamam.now.sh",
-            "project_demo": "https://nascom-iumkpfamam.now.sh",
-            "project_img": "assets/images/medical.jpg",
-            "tags": [
-                {
-                    "tag": "HTML"
-                },
-                {
-                    "tag": "CSS"
-                },
-                {
-                    "tag": "Javascript"
-                },
-                {
-                    "tag": "Angular 4"
-                },
-                {
-                    "tag":"REST API"
                 }
             ]
         },
@@ -348,100 +393,35 @@
         {
             "name": "Programming Languages",
             "skill_set": [
-                {
-                    "name": "C"
-                },
-                {
-                    "name": "C++"
-                },
-                {
-                    "name": "Java"
-                },
-                {
-                    "name": "Python 3"
-                }
+                "C", "C++", "Java", "Python 3"
             ]
         },
         {
             "name": "Front-End Technologies",
             "skill_set": [
-                {
-                    "name": "HTML 5"
-                },
-                {
-                    "name": "CSS"
-                },
-                {
-                    "name": "Javascript"
-                },
-                {
-                    "name": "Angular 4"
-                },
-                {
-                    "name": "Bootstrap 4"
-                }
+                "HTML", "CSS", "Javascript", "Angular 4", "Bootstrap 4"
             ]
         },
         {
             "name": "Back-End Technologies",
             "skill_set": [
-                {
-                    "name": "Java"
-                },
-                {
-                    "name": "Servlet & JSP"
-                },
-                {
-                    "name": "Spring Boot"
-                },
-                {
-                    "name": "MySQL"
-                },
-                {
-                    "name": "Apache Kafka"
-                },
-                {
-                    "name": "Django"
-                },
-                {
-                    "name": "Flask"
-                },
-                {
-                    "name": "REST APIs"
-                }
+                "Java", "Spring Boot", "MySQL", "Apache Kafka", "Django", "Flask", "REST APIs", "Servlet & JSP"
             ]
         },
         {
-            "name": "Tools",
+            "name": "Others",
             "skill_set": [
-                {
-                    "name": "Microservices"
-                },
-                {
-                    "name": "GIT"
-                },
-                {
-                    "name": "Docker"
-                },
-                {
-                    "name": "Kubernetes"
-                },
-                {
-                    "name": "Design Patterns"
-                },
-                {
-                    "name": "High-Level Design"
-                },
-                {
-                    "name": "Low-Level Design"
-                },
-                {
-                    "name": "Distributed Systems"
-                },
-                {
-                    "name": "AWS"
-                }
+                "Microservices", "GIT", "Docker", "Kubernetes", "Design Patterns", "High-Level Design", "Low-Level Design", "Distributed Systems", "AWS"
             ]
+        }
+    ],
+    "Blogs" : [
+        {
+            "blog_name" : "Introducing Crawler 2.0 – The Next Generation Ads.Txt Crawler At PubMatic",
+            "blog_desc" : "Details how we were able to scale our existing Ads.Txt Crawler using Apache Kafka technology to support the increasing growth at PubMatic.",
+            "blog_link" : "https://pubmatic.com/blog/introducing-crawler-2-0-the-next-generation-ads-txt-crawler-at-pubmatic/",
+            "blog_img" : "assets/images/crawler.jpg",
+            "published_date" : "30 Mar 2023 • 5 min read"
         }
     ],
     "Certificates": [

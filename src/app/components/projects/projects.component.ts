@@ -22,7 +22,7 @@ export class ProjectsComponent implements OnInit {
     this.intro.getProfile().subscribe(data=>{
       this.projects = data["Projects"];
       for(var index=0;index<this.projects.length;index++){
-        if(index<3){
+        if(index<4){
           this.important_projects.push(this.projects[index]);
         }
       }

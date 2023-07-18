@@ -1,0 +1,17 @@
+<div class="uk-section uk-section-muted">
+    <div class="uk-container">
+        <h2 class="uk-heading-bullet uk-heading-secondary" id="blog">Blogs</h2>
+        <br/>
+        <div class="uk-card uk-card-default uk-card-body uk-margin uk-margin-auto-right uk-margin-auto@m uk-width-5-6@s" *ngFor="let blog of blogs">
+            
+            <a href="{{blog.blog_link}}" target="_blank" class="uk-text-bolder uk-text-large">
+                <img class="uk-align-center uk-align-right@m uk-margin-remove-adjacent" src="{{blog.blog_img}}" width="300"
+                height="200" alt="Blog Image" style="border-radius: 1px;">
+            </a>
+
+            <a href="{{blog.blog_link}}" target="_blank" style="text-decoration: none; color: black;" class="uk-text-bolder uk-text-large">{{blog.blog_name}}</a> <br />
+            <p>{{blog.blog_desc}}</p>
+            <span> {{blog.published_date}}</span>
+        </div>
+    </div>
+</div>

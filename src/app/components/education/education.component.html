@@ -10,7 +10,8 @@
                     <span  class="uk-text-bolder">{{education.Degree}}</span> <br>
                     <span  class="uk-text-small">{{education.College_Name}}</span> <br>
                     <span class="uk-text-small">{{education.Start_Year}} - {{education.End_Year}}</span> <br>
-                    <span class="uk-text-small uk-text-bolder" *ngIf="education.Score_Type != null">{{education.Score_Type}} : {{education.Score}}</span> <br>
+                    <span  class="uk-text-small"><b>Coursework: </b>{{education.Coursework}}</span> <br>
+                    <span class="uk-text-small" *ngIf="education.Score_Type != null"> <b>{{education.Score_Type}}</b> : {{education.Score}} <br></span>  
                 </li>
             </ul>
         </div>

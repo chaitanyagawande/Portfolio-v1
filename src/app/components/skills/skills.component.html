@@ -1,22 +1,10 @@
 <div class="uk-section uk-section-muted">
     <div class="uk-container">
-
         <h2 class="uk-heading-bullet uk-heading-secondary" id="skill">Skills</h2>
-        <br>
-
-        <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-grid-match" uk-grid>
-            <div *ngFor="let skill of skills">
-                <div class="">
-                    <span  class="uk-text-bolder">{{skill.name}}</span>
-                    <hr>
-                    <ul class="uk-list uk-list-bullet">
-                        <li *ngFor="let obj of skill.skill_set">
-                            {{obj.name}}
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
+        <ul class="uk-list uk-list-bullet">
+            <li *ngFor="let skill of skills">
+                <span class="uk-text-bolder">{{skill.name}}:</span> {{skill.skill_set}}
+            </li>
+        </ul>
     </div>
 </div>
